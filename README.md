@@ -1,8 +1,8 @@
 # webdevelopement
 Créations Web
 
-Illumnia 1.0
+Fewer (Alpha v1.0)
 
-Fixation des bugs :
-- Utilisation de la methode POST permet de limiter les problèmes avec l'URL lors des combats ou même du changement d'objets de l'inventaire.
-- Correction des bugs de la page de profils
+Fewer est un framework HTML/CSS qui vous permet d'écrire moins pour en faire plus.
+
+N'hésitez pas à consulter la documentation sur https://guillaume.lortet.fr/fewer/documentation.html
