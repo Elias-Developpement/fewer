@@ -1,0 +1,334 @@
+/*
+*
+*	Fewer v1.0
+*	2016 - Copyright Guillaume Lortet
+*
+*/
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700';
+
+html {
+	font-family: sans-serif;
+	line-height: 1.16;
+}
+
+body {
+	margin: 0;
+	vertical-align: baseline;
+}
+
+header,
+footer,
+section,
+article,
+aside,
+nav {
+	display: block;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td,
+th {
+	padding: 5px;
+}
+
+caption {
+	font-size: 1.2em;
+	text-decoration: underline;
+	margin: 10px auto;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+input[type=text],
+input[type=password],
+input[type=mail],
+input[type=url],
+input[type=number],
+input[type=tel],
+input[type=date],
+input[type=search],
+select {
+	width: 300px;
+	height: 26px;
+	/*border: 1px solid #cdcdcd;
+	border-radius: 5px;
+	padding-left: 5px;*/
+}
+
+input[type=submit] {
+	width: 200px;
+	height: 30px;
+}
+
+a {
+	color: #3498db;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #2980b9;
+	text-decoration: underline;
+}
+
+blockquote {
+	margin-left: 0;
+	padding-left: 15px;
+	border-left: 3px solid #acacac;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 20px 0;
+}
+
+/* Titres */
+
+.heading {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+.heading-1 {
+	font-size: 2.4em;
+}
+
+.heading-2 {
+	font-size: 2em;
+}
+
+.heading-3 {
+	font-size: 1.8em;
+}
+
+.heading-4 {
+	font-size: 1.6em;
+}
+
+.heading-5 {
+	font-size: 1.4em;
+}
+
+.heading-6 {
+	font-size: 1.2em;
+}
+
+/* Navigation */
+
+.nav {
+	width: 100%;
+}
+
+.nav-logo {
+	float: left;
+	padding-left: 20px;
+}
+
+.nav-title {
+	font-size: 1.4em;
+	padding: 0 5px;
+	color: #000;
+}
+
+.nav-title:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+.nav-list {
+	list-style: none;
+	display: inline-block;
+	float: right;
+}
+
+.nav-a {
+	padding: 0 10px;
+}
+
+.nav-a:hover {
+	text-decoration: none;
+	opacity: 0.7;
+}
+
+.mainmenu {
+	width: auto;
+	padding-right: 20px;
+}
+
+/* Citations, abbréviations, etc */
+
+.quote {
+	width: 60%;
+	margin: 10px auto;
+	padding: 15px;
+	border: 1px solid #bbb;
+	border-left: 5px solid #bbb;
+	font-style: italic;
+}
+
+.abbr {
+	font-weight: bold;
+}
+
+/* Boutons */
+
+.button {
+	padding: 15px 25px;
+	margin: 10px;
+	border: 1px solid rgba(255, 255, 255, 0);
+	border-radius: 5px;
+	
+}
+
+.button:hover {
+	text-decoration: none;
+}
+
+.button-default {
+	color: #ccc;
+	border-color: #ccc;
+}
+
+.button-default:hover {
+	background-color: #ccc;
+	color: #fff;
+}
+
+.button-red {
+	color: #ef3435;
+	border-color: #ef3435;
+}
+
+.button-red:hover {
+	color: #fff;
+	background-color: #ef3435;
+}
+
+.button-blue {
+	color: #4445ef;
+	border-color: #4445ef;
+}
+
+.button-blue:hover {
+	color: #fff;
+	background-color: #4445ef;
+}
+
+
+/* Thèmes */
+
+.bg-dark {
+	background-color: #313131;
+}
+
+.bg-light {
+	background-color: #f1f1f1;
+}
+
+.c-dark {
+	color: #000;
+}
+
+.c-dark:hover {
+	color: #000;
+}
+
+.c-light {
+	color: #fff;
+}
+
+.c-light:hover {
+	color: #fff;
+}
+
+/* Positions */
+
+.bloc {
+	display: block;
+}
+
+.inline-bloc {
+	display: inline-block;
+}
+
+.inline {
+	display: inline;
+}
+
+.center {
+	text-align: center;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+.relative {
+	position: relative;
+}
+
+.absolute {
+	position: absolute;
+}
+
+.fixed {
+	position: fixed;
+}
+
+.clear {
+	clear: both;
+}
+
+/* Tailles */
+
+.s-1 {
+	height: 86px;
+	line-height: 86px;
+}
+
+.s-2 {
+	height: 75px;
+	line-height: 75px;
+}
+
+.s-3 {
+	height: 64px;
+	line-height: 64px;
+}
+
+.s-4 {
+	height: 54px;
+	line-height: 54px;
+}
+
+.s-5 {
+	height: 42px;
+	line-height: 42px;
+}
+
+.s-6 {
+	height: 22px;
+	line-height: 22px;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.lowercase {
+	text-transform: lowercase;
+}
