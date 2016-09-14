@@ -2,6 +2,7 @@
 *
 *	Fewer v1.0
 *	2016 - Copyright Guillaume Lortet
+* 	Dernière modification : 14 Septembre 2015 à 20h30
 *
 */
 
@@ -67,6 +68,10 @@ input[type=submit] {
 	height: 30px;
 }
 
+label {
+	font-size: .8em;
+}
+
 a {
 	color: #3498db;
 	text-decoration: none;
@@ -92,7 +97,26 @@ h6 {
 	margin: 20px 0;
 }
 
+hr {
+	width: 80%;
+	margin: 100px auto;
+	border: 1px solid #bbb;
+}
+
 /* Titres */
+
+.letter {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	font-size: 6em;
+	border: 1px solid #000;
+	border-radius: 10px;
+	width: 120px;
+	height: 120px;
+	line-height: 120px;
+	margin: auto;
+	text-align: center;
+}
 
 .heading {
 	font-family: 'Open Sans', sans-serif;
@@ -121,6 +145,23 @@ h6 {
 
 .heading-6 {
 	font-size: 1.2em;
+}
+
+/* Section */
+
+.section {
+	margin: 60px auto;
+	padding: 60px auto;
+}
+
+/* Footer */
+
+.footer {
+	display: block;
+	text-align: center;
+	width: auto;
+	z-index: 100;
+	top: auto; left: 0; right: 0; bottom: 0;
 }
 
 /* Navigation */
@@ -173,6 +214,7 @@ h6 {
 	padding: 15px;
 	border: 1px solid #bbb;
 	border-left: 5px solid #bbb;
+	color: #777;
 	font-style: italic;
 }
 
@@ -251,6 +293,53 @@ h6 {
 	color: #fff;
 }
 
+.bg-white {
+	background-color: #fff;
+}
+
+.bg-red {
+	background-color: #ef3435;
+}
+
+.bg-blue {
+	background-color: #4445ef;
+}
+
+/* Inputs */
+
+.input {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 2px 5px;
+}
+
+.ipt-button {
+	border: 1px solid #000;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.ipt-button:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+.ipt-text {
+	width: 800px;
+}
+
+.progressbar {
+	height: 16px;
+	border-radius: 5px;
+}
+
+.progressbar-bg {
+	width: 500px;
+	margin: auto;
+	border-radius: 5px;
+	background-color: #545454;
+} 
+
 /* Positions */
 
 .bloc {
@@ -277,6 +366,10 @@ h6 {
 	text-align: right;
 }
 
+.auto {
+	margin: auto;
+}
+
 .relative {
 	position: relative;
 }
@@ -291,6 +384,10 @@ h6 {
 
 .clear {
 	clear: both;
+}
+
+.champ {
+	margin: 10px;
 }
 
 /* Tailles */
@@ -331,4 +428,18 @@ h6 {
 
 .lowercase {
 	text-transform: lowercase;
+}
+
+/* Transition */
+
+.transition-long {
+	transition-duration: .8s;
+}
+
+.transition-medium {
+	transition-duration: .5s;
+}
+
+.transition-small {
+	transition-duration: .3s;
 }
