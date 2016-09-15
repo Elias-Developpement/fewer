@@ -29,6 +29,8 @@ nav {
 
 table {
 	border-collapse: collapse;
+	width: 80%;
+	margin: auto;
 }
 
 td,
@@ -45,6 +47,25 @@ caption {
 ul {
 	margin: 0;
 	padding: 0;
+}
+
+dl {
+	background-color: #eaeaea;
+	width: 45%;
+	margin: 20px auto;
+	border: 1px solid #bbb;
+	text-align: left;
+}
+
+dt {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5em;
+	color: #444;
+}
+
+dd {
+	color: #666;
+	font-size: 1.1em;
 }
 
 input[type=text],
@@ -97,10 +118,28 @@ h6 {
 	margin: 20px 0;
 }
 
+span {
+	white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+code {
+	display: block;
+	width: 50%;
+	background-color: #393939;
+	border: 1px solid #262626;
+	padding: 15px;
+	margin: 10px auto;
+}
+
 hr {
+	border: 0; 
 	width: 80%;
-	margin: 100px auto;
-	border: 1px solid #bbb;
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
 }
 
 /* Titres */
@@ -206,6 +245,18 @@ hr {
 	padding-right: 20px;
 }
 
+.nav-left {
+	width: 20%;
+	position: fixed;
+	left: 0;
+	margin-left: 0;
+	height: 100%;
+}
+
+.nav-dropdown {
+	/* Menu déroulant */
+}
+
 /* Citations, abbréviations, etc */
 
 .quote {
@@ -251,6 +302,16 @@ hr {
 	border-color: #ef3435;
 }
 
+.button-flat-red {
+	color: #D64E42;
+	border-color: #D64E42;
+}
+
+.button-flat-red:hover {
+	color: #fff;
+	background-color: #D64E42;
+}
+
 .button-red:hover {
 	color: #fff;
 	background-color: #ef3435;
@@ -277,8 +338,20 @@ hr {
 	background-color: #f1f1f1;
 }
 
+.bg-dark-light {
+	background-color: #313131;
+}
+
+.bg-flat-red {
+	background-color: #D64E42;
+}
+
 .c-dark {
 	color: #000;
+}
+
+.c-light-dark {
+	color: #313131;
 }
 
 .c-dark:hover {
@@ -291,6 +364,22 @@ hr {
 
 .c-light:hover {
 	color: #fff;
+}
+
+.c-red {
+	color: #ef3435;
+}
+
+.c-flat-red {
+	color: #D64E42;
+}
+
+.c-flat-blue {
+	color: #4E42D6;
+}
+
+.c-blue {
+	color: #4445ef;
 }
 
 .bg-white {
@@ -342,11 +431,11 @@ hr {
 
 /* Positions */
 
-.bloc {
+.block {
 	display: block;
 }
 
-.inline-bloc {
+.inline-block {
 	display: inline-block;
 }
 
@@ -356,6 +445,7 @@ hr {
 
 .center {
 	text-align: center;
+	margin: 
 }
 
 .left {
@@ -443,3 +533,19 @@ hr {
 .transition-small {
 	transition-duration: .3s;
 }
+
+/* Responsive Design */
+
+@media (max-width: 640px) {
+	.nav {
+		width: 100%;
+		height: 100%;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		position: fixed;
+	}
+}
+
+@media ()
