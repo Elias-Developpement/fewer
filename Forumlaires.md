@@ -12,7 +12,7 @@ Ainsi, vous pouvez créer un formulaire de connexion facilement :
   </div>
   
   <div class="form-champ">
-    <label class="form-label">Pseudo : </label>
+    <label class="form-label">Mot de passe : </label>
     <input type="password" class="form-input" placeholder="Mot de passe">
   </div>
   
